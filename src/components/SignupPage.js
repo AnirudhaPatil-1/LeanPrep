@@ -7,7 +7,7 @@ import AuthContainer from "./AuthContainer";
 
 const SignupPage = () => {
   const form = useForm();
-  const { register, control, handleSubmit, formState } = form;
+  const { register, handleSubmit, formState } = form;
   const { errors } = formState;
   const navigate = useNavigate();
 
