@@ -1,8 +1,6 @@
 # LeanPrep Interview Skills App
 
-<div align="center">
-  <img src="https://drive.google.com/file/d/169MtN2HkhOJzeiY-BbPCPG10DyCpxIxg/view?usp=sharing" alt="LeanPrep Logo" width="200">
-</div>
+![LeanPrep Screenshot](https://github.com/AnirudhaPatil-1/LeanPrep/assets/73242321/8f3d6a54-2cdf-4a2b-ad1a-d945587c1630)
 
 Welcome to the **LeanPrep Interview Skills App** - your ultimate destination for honing your interview skills. Whether you're a fresh graduate, career changer, or seasoned professional, we've got you covered. Our comprehensive library of mock interview questions and expert tips will help you ace any job interview.
 
