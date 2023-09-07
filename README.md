@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# LeanPrep Interview Skills App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="https://drive.google.com/file/d/169MtN2HkhOJzeiY-BbPCPG10DyCpxIxg/view?usp=sharing" alt="LeanPrep Logo" width="200">
+</div>
 
-## Available Scripts
+Welcome to the **LeanPrep Interview Skills App** - your ultimate destination for honing your interview skills. Whether you're a fresh graduate, career changer, or seasoned professional, we've got you covered. Our comprehensive library of mock interview questions and expert tips will help you ace any job interview.
 
-In the project directory, you can run:
+HOSTED LINK (DEMO) : [**LeanPrep App**](https://leanprep.netlify.app/)
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Application Flow](#application-flow)
+- [Contributing](#contributing)
+- [Issues and Support](#issues-and-support)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Project Structure
 
-### `npm test`
+The project consists of several components and files:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **App.js**: The main entry point of the application, where React Router is used to define the routes for different pages.
+- **LandingPage.js**: The landing page of the application, displaying the header, navigation bar, and main content.
+- **AuthContainer.js**: A reusable component for rendering the authentication pages. It includes the application logo and wraps the page content.
+- **Body.js**: A component representing the main content of the landing page, including text content and call-to-action buttons.
+- **Navbar.js**: A component for rendering the navigation bar.
+- Various image assets used in the application.
 
-### `npm run build`
+## 🛠️ Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the LeanPrep Interview Skills App locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository to your local machine:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone <repository_url>
+   ```
 
-### `npm run eject`
+2. Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   cd leanprep-interview-skills-app
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the required dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start the development server:
 
-## Learn More
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   This will start the development server and open the application in your default web browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌟 Application Flow
 
-### Code Splitting
+- When you run the application, it starts on the landing page.
+- The landing page contains information about the LeanPrep app, including a brief description and a call-to-action button to join the program.
+- Clicking the "Join our Program" button will take you to the signup page (`/signup`) where users can create an account.
+- If you are already a member, you can click the "Login" link to navigate to the login page (`/signin`).
+- After successful signup or login, users can access further features and resources related to interview skills.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+If you would like to contribute to the LeanPrep Interview Skills App, please follow these guidelines:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and test them thoroughly.
+4. Submit a pull request, explaining the purpose of your changes and any relevant details.
 
-### Making a Progressive Web App
+## ❓ Issues and Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you encounter any issues or have questions related to the application, please feel free to open an issue on the GitHub repository. We are here to help!
 
-### Advanced Configuration
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Thank you for using the LeanPrep Interview Skills App! We hope it helps you ace your job interviews.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Explore the app: [**LeanPrep App**](https://leanprep.netlify.app/)
